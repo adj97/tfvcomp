@@ -10,8 +10,8 @@ class tfvcomp():
 
     tfvj = ".tfvars.json"
 
-    dm = 1 # dev mode
-    #dm = 0 # prod mode
+    #dm = 1 # dev mode
+    dm = 0 # prod mode
 
     # get number of files gieven
     n = len(sys.argv)-1
