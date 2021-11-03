@@ -60,7 +60,8 @@ class tfvcomp():
             # header row
             # variable header
             vh = "Variable"
-            writer.writerow([vh]+files)
+
+            writer.writerow([vh]+["File: " + fname for fname in files])
 
     def appendvariables(files):
         # full file names array
